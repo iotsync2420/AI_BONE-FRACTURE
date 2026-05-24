@@ -29,6 +29,8 @@
 | **🎛️ Real-Time Telemetry** | Automated Pandas-to-Streamlit UI framework with confidence sliders. | Clinicians can alter strictness matching scales instantly on the fly. |
 
 ---
+**AI Dual-Head Output (YOLOv8 + EigenCAM Feature Extraction):**
+![YOLOv8 and EigenCAM Output](assets/detection_result.jpg)
 
 ## 🧠 System Architecture
 
