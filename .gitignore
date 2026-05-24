@@ -1,0 +1,12 @@
+# Ignore python cache files
+__pycache__/
+*.pyc
+
+# Ignore virtual environments
+venv/
+.venv/
+env/
+
+# Ignore large YOLO model weights
+*.pt
+*.onnx
