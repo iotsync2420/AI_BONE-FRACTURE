@@ -30,7 +30,9 @@
 
 ---
 **AI Dual-Head Output (YOLOv8 + EigenCAM Feature Extraction):**
-![YOLOv8 and EigenCAM Output](assets/detection_result.jpg)
+![YOLOv8 and EigenCAM Output](test_result1.png)
+
+
 
 ## 🧠 System Architecture
 
