@@ -1,5 +1,3 @@
-
-
 <div align="center">
 
 # 🦴 AI-Powered Bone Fracture Detection Engine
@@ -30,9 +28,18 @@
 
 ---
 **AI Dual-Head Output (YOLOv8 + EigenCAM Feature Extraction):**
-![YOLOv8 and EigenCAM Output](test_result1.png)
+![YOLOv8 and EigenCAM Output](test_result4.png)
 
+---
+## 🛠️ System Architecture
 
+### 🔄 End-to-End Project Workflow
+The complete development lifecycle—spanning cloud-accelerated TPU training, local environment scripting, sandboxed Docker containerization, and public Hugging Face deployment—is mapped out below:
 
+<p align="center">
+  <img src="workflow.png" alt="Bone Fracture Detection Project Workflow" width="100%">
+</p>
+
+---
 
 
