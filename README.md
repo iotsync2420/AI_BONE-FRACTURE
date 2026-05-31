@@ -34,17 +34,5 @@
 
 
 
-## 🧠 System Architecture
 
-Traditional Class Activation Mapping (CAM) logic frequently bleeds into raw background space due to dense black X-ray margins. This engine resolves that drawback by running a **Dual-Head Pipeline**:
 
-```mermaid
-graph TD
-    A[Uploaded X-Ray Image] --> B[YOLOv8 Detection Head]
-    A --> C[EigenCAM Feature Hook]
-    B --> D[Strict Non-Maximum Suppression]
-    C --> E[Backbone Matrix Power Iteration SVD]
-    D --> F[High-Precision Coordinate Boxes]
-    E --> G[Subtle Alpha Thermal Overlay]
-    F --> H[Merged Analytical Output Result]
-    G --> H
